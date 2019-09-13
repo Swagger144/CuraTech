@@ -1,0 +1,82 @@
+-- phpMyAdmin SQL Dump
+-- version 4.7.0
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Feb 21, 2018 at 06:58 PM
+-- Server version: 10.1.26-MariaDB
+-- PHP Version: 7.1.8
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `test`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `sagar`
+--
+
+CREATE TABLE `sagar` (
+  `id` int(11) NOT NULL,
+  `fname` double NOT NULL,
+  `sname` double NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `sagar`
+--
+
+INSERT INTO `sagar` (`id`, `fname`, `sname`) VALUES
+(1, 19.168579899999997, 72.8698843),
+(2, 19.1607473, 72.8925442),
+(3, 19.0408695, 72.8924953),
+(4, 19.0408695, 72.8924953),
+(5, 19.0408695, 72.8924953),
+(6, 19.0408695, 72.8924953),
+(7, 19.0408695, 72.8924953),
+(8, 19.0408695, 72.8924953),
+(9, 19.0408695, 72.8924953),
+(10, 19.040928299999997, 72.8926204),
+(11, 19.040902199999998, 72.8926277),
+(12, 19.040902199999998, 72.8926277),
+(13, 19.0455692, 72.88965139999999),
+(14, 19.0455692, 72.88965139999999),
+(15, 19.0455692, 72.88965139999999),
+(16, 19.0408083, 72.89250179999999),
+(17, 19.0408083, 72.89250179999999);
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `sagar`
+--
+ALTER TABLE `sagar`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `sagar`
+--
+ALTER TABLE `sagar`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
